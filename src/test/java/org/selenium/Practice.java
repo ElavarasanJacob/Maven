@@ -34,6 +34,22 @@ public class Practice {
 		System.out.println("Hiiiiiiiiiiiiiiiiiiii");
 		System.out.println("Hiiiiiiiiiiiiiiiiiiii");
 		System.out.println("Hiiiiiiiiiiiiiiiiiiii");
+		source.sendKeys("Chennai");
+		r.keyPress(KeyEvent.VK_DOWN);
+		r.keyRelease(KeyEvent.VK_DOWN);
+		r.keyPress(KeyEvent.VK_DOWN);
+		r.keyRelease(KeyEvent.VK_DOWN);
+		r.keyPress(KeyEvent.VK_ENTER);
+		r.keyRelease(KeyEvent.VK_ENTER);
+		
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+
 		
 
 		WebElement destination = driver.findElement(By.xpath("//input[@id='dest']"));
