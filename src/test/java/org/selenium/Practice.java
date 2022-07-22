@@ -6,6 +6,7 @@ import java.awt.event.KeyEvent;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,13 +24,17 @@ public class Practice {
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 
 		WebElement source = driver.findElement(By.xpath("//input[@id='src']"));
-		source.sendKeys("Chennai");
-		r.keyPress(KeyEvent.VK_DOWN);
-		r.keyRelease(KeyEvent.VK_DOWN);
-		r.keyPress(KeyEvent.VK_DOWN);
-		r.keyRelease(KeyEvent.VK_DOWN);
-		r.keyPress(KeyEvent.VK_ENTER);
-		r.keyRelease(KeyEvent.VK_ENTER);
+		source.sendKeys("Chennai",Keys.ENTER);
+//		r.keyPress(KeyEvent.VK_DOWN);
+//		r.keyRelease(KeyEvent.VK_DOWN);
+//		r.keyPress(KeyEvent.VK_DOWN);
+//		r.keyRelease(KeyEvent.VK_DOWN);
+//		r.keyPress(KeyEvent.VK_ENTER);
+//		r.keyRelease(KeyEvent.VK_ENTER);
+		System.out.println("Hiiiiiiiiiiiiiiiiiiii");
+		System.out.println("Hiiiiiiiiiiiiiiiiiiii");
+		System.out.println("Hiiiiiiiiiiiiiiiiiiii");
+		
 
 		WebElement destination = driver.findElement(By.xpath("//input[@id='dest']"));
 		destination.sendKeys("Madiwala, Bangalore");
