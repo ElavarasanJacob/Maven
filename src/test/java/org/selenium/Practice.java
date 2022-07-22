@@ -30,6 +30,14 @@ public class Practice {
 		r.keyRelease(KeyEvent.VK_DOWN);
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
+		
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
+		System.out.println("sdsdssssssssssssss");
 
 		WebElement destination = driver.findElement(By.xpath("//input[@id='dest']"));
 		destination.sendKeys("Madiwala, Bangalore");
