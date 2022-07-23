@@ -15,11 +15,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Practice {
 	public static void main(String[] args) throws InterruptedException, AWTException {
-
+		System.out.println("Branch A check");
+		System.out.println("Branch A check");
+		System.out.println("Branch A check");
+		System.out.println("Branch A check");
 		System.out.println("Banch B check");
 		System.out.println("Banch B check");
 		System.out.println("Banch B check");
 		System.out.println("Banch B check");
+		
 		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
